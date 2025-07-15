@@ -1,0 +1,11 @@
+<link href="https://sistemahost.com/playergenerator/css/myCast.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+
+<div class="myCast" id="player"></div>
+<script src="https://sistemahost.com/playergenerator/js/myCast.min.js"></script>
+<script> 
+$('#player').myCast({ 
+    URL: 'https://mpc1.mediacp.eu:8014', version: '2', mount_point: 'stream.aac', vertical_layout: true, 
+    bg: 'grey', accent: 'grey', autoplay: false, }); 
+</script>
